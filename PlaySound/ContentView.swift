@@ -7,16 +7,21 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button {
+                playSound(key: "piano-bell")
+            } label: {
+                Text("Play")
+                    .foregroundColor(.green)
+                    .font(.system(size: 32))
+            }
         }
-        .padding()
     }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

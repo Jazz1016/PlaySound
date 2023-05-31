@@ -11,6 +11,8 @@
 		0D5F5DFA2A27EEA800D61A2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5DF92A27EEA800D61A2C /* ContentView.swift */; };
 		0D5F5DFC2A27EEAA00D61A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5F5DFB2A27EEAA00D61A2C /* Assets.xcassets */; };
 		0D5F5DFF2A27EEAA00D61A2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5F5DFE2A27EEAA00D61A2C /* Preview Assets.xcassets */; };
+		0D5F5E072A27EFF600D61A2C /* piano-bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D5F5E062A27EFF600D61A2C /* piano-bell.mp3 */; };
+		0D5F5E092A27F0E300D61A2C /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5E082A27F0E300D61A2C /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0D5F5DF92A27EEA800D61A2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D5F5DFB2A27EEAA00D61A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D5F5DFE2A27EEAA00D61A2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D5F5E062A27EFF600D61A2C /* piano-bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "piano-bell.mp3"; sourceTree = "<group>"; };
+		0D5F5E082A27F0E300D61A2C /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		0D5F5DF62A27EEA800D61A2C /* PlaySound */ = {
 			isa = PBXGroup;
 			children = (
+				0D5F5E052A27EFEC00D61A2C /* Sounds */,
 				0D5F5DF72A27EEA800D61A2C /* PlaySoundApp.swift */,
 				0D5F5DF92A27EEA800D61A2C /* ContentView.swift */,
 				0D5F5DFB2A27EEAA00D61A2C /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				0D5F5DFE2A27EEAA00D61A2C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D5F5E052A27EFEC00D61A2C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0D5F5E082A27F0E300D61A2C /* PlaySound.swift */,
+				0D5F5E062A27EFF600D61A2C /* piano-bell.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5F5DFF2A27EEAA00D61A2C /* Preview Assets.xcassets in Resources */,
+				0D5F5E072A27EFF600D61A2C /* piano-bell.mp3 in Resources */,
 				0D5F5DFC2A27EEAA00D61A2C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5F5DFA2A27EEA800D61A2C /* ContentView.swift in Sources */,
+				0D5F5E092A27F0E300D61A2C /* PlaySound.swift in Sources */,
 				0D5F5DF82A27EEA800D61A2C /* PlaySoundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
